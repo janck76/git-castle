@@ -1,0 +1,20 @@
+[user]
+	email = janck76@gmail.com
+	name = Jan C Kaldestad
+[color]
+	ui = auto
+[core]
+	excludesfile = /home/janck/.gitignore_global
+[merge]
+    #tool = meld
+    # extmerge: wrapper script for diff tool, må være tilgjengelig i PATH
+    tool = extmerge
+    #tool = gvimdiff
+    conflictstyle = diff3
+[mergetool "extmerge"]
+    cmd = extmerge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
+    trustExitCode = false
+[push]
+	default = simple
+[rerere]
+	enables = true
