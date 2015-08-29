@@ -18,3 +18,11 @@
 	default = simple
 [rerere]
 	enables = true
+[pull]
+	rebase = preserve
+[status]
+	showUntrackedFiles = all
+[alias]
+	unstage = reset HEAD --
+	tidy = rebase -i @{u}
+	pop = stash pop --index
