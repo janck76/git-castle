@@ -17,7 +17,7 @@
 [push]
 	default = simple
 [rerere]
-	enables = true
+	enabled = true
 [pull]
 	rebase = preserve
 [status]
