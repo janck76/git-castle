@@ -26,3 +26,4 @@
 	unstage = reset HEAD --
 	tidy = rebase -i @{u}
 	pop = stash pop --index
+    cdif = diff-tree -p
