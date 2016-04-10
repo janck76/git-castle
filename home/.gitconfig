@@ -27,3 +27,4 @@
 	tidy = rebase -i @{u}
 	pop = stash pop --index
     cdif = diff-tree -p
+    amend = commit --amend --no-edit
